@@ -1,0 +1,6 @@
+crouch_coef             = 0.70 ; .3
+run_coef                = 4.1 ;2.5
+sprint_koef             = 2.0 ;2.3
+run_back_coef           = 1.8
+walk_back_coef          = 0.5
+walk_accel              = 8; 19

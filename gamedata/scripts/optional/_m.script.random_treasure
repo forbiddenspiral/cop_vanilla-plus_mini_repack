@@ -1,0 +1,45 @@
+--For Treasure by Shredder
+function get_ammo_for_wpn(section)
+	if section and system_ini():line_exist(section, "ammo_class") then
+		local ammo_list = system_ini():r_string(section, "ammo_class")
+		local num = nil
+		local ammo_tbl = {}
+		for num in string.gfind(ammo_list,"([%w_%-.\\]+)%p*" ) do
+			table.insert(ammo_tbl, num)
+		end
+		return ammo_tbl
+	end
+end
+
+function get_addon_scope(section)
+	if 	system_ini():line_exist(section, "scope_status") and 
+		system_ini():r_u32(section, "scope_status") == 2
+	then
+		local scope_list = system_ini():r_string(section, "scopes_sect")
+		local num = nil
+		local scope = {}
+		for num in string.gfind(scope_list,"([%w_%-.\\]+)%p*" ) do
+			local sc = system_ini():r_string(num, "scope_name")
+			table.insert(scope, sc)
+		end
+		return scope
+	end	
+end
+
+function get_addon_grenade(section)
+	if 	system_ini():line_exist(section, "grenade_launcher_status") and 
+		system_ini():r_u32(section, "grenade_launcher_status") == 2
+	then
+		local launcher = system_ini():r_string(section,"grenade_launcher_name")
+		return launcher
+	end
+end
+
+function get_addon_silencer(section)
+	if 	system_ini():line_exist(section, "silencer_status") and 
+		system_ini():r_u32(section, "silencer_status") == 2
+	then
+		local silencer = system_ini():r_string(section,"silencer_name")
+		return silencer
+	end
+end

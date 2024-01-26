@@ -1,0 +1,38 @@
+loot_money_enabled = false
+
+local random_loot = false
+
+local min_money_novice = 1
+local max_money_novice = 50
+local min_money_experienced = 50
+local max_money_experienced = 100
+local min_money_veteran = 100
+local max_money_veteran = 150
+local min_money_master = 150
+local max_money_master = 200
+
+function get_npc_money(npc)
+	local rank_money, npc_money = 0
+	local se_obj = alife():object(npc:id())
+	if se_obj and not se_obj.gave_money then
+		if not random_loot or (random_loot and math.random() > 0.5) then
+			local npc_rank = ranks.get_obj_rank_name(npc)
+			if npc_rank == "novice" then
+				rank_money = math.random(min_money_novice, max_money_novice)
+			elseif npc_rank	== "experienced" then
+				rank_money = math.random(min_money_experienced, max_money_experienced)
+			elseif npc_rank	== "veteran" then
+				rank_money = math.random(min_money_veteran, max_money_veteran)
+			elseif npc_rank	== "master" then
+				rank_money = math.random(min_money_master, max_money_master)
+			end
+			if rank_money > 0 then
+				npc_money = math.ceil(rank_money)
+				xr_sound.set_sound_play(db.actor:id(), "pda_tips")
+				news_manager.relocate_money(db.actor, "in", npc_money)
+				db.actor:give_money(npc_money)
+			end
+		end
+		se_obj.gave_money = true
+	end
+end

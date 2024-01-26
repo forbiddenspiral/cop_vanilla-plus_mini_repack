@@ -1,0 +1,37 @@
+--из OGSE 0.6.9 для ТЧ. Чуть подправил Shredder )
+function get_treasure_name(section)
+	local str = game.translate_string(news_manager.get_inv_name(section))
+ 	if SectIsWeapon(section) then
+		return game.translate_string("treasure_wpn_name")
+	elseif string.find(section,"detector_") then
+		return game.translate_string("treasure_detector_name")
+ 	elseif string.find(section,"af_") then
+		return game.translate_string("treasure_artefact_name")
+ 	elseif (string.find(section,"medkit") or (section == "antirad") or (section == "bandage")) then
+		return game.translate_string("treasure_medecine_name")
+ 	elseif string.find(section,"drug_") then
+		return game.translate_string("treasure_drug_name")
+ 	elseif string.find(section,"grenade_") then
+		return game.translate_string("treasure_grenade_name")
+ 	elseif (string.find(section,"ammo_vog-25") or string.find(section,"ammo_m209")) then
+		return game.translate_string("treasure_wpngrenade_name")
+ 	elseif ((section == "energy_drink") or (section == "vodka")) then
+		return game.translate_string("treasure_drink_name")
+ 	elseif string.find(section,"ammo_") then
+		return game.translate_string("treasure_ammo_name")
+ 	elseif string.find(section,"mutant_") then
+		return game.translate_string("treasure_mutant_name")
+ 	elseif string.find(section,"wpn_addon_") then
+		return game.translate_string("treasure_addon_name")
+ 	elseif ((section == "bread") or (section == "kolbasa") or (section == "conserva")) then
+		return game.translate_string("treasure_eat_name")
+ 	end
+	return str
+end
+
+function SectIsWeapon(section)
+	if string.find(section,"wpn_") and not string.find(section,"wpn_addon_") and not string.find(section,"wpn_fake_") then
+		return true
+	end
+	return false
+end

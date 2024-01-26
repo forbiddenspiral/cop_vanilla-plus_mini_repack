@@ -1,0 +1,16 @@
+--Credit goes to Jurok/SGM, Swartz/jketiynu, Gannebamm, and Thunderfreak
+
+local startTimer = 0
+
+function medic_wow()
+	if not has_alife_info("detective_achievement_gained") or has_alife_info("zat_stalker_medic_spawn") then
+		return
+	end
+	if has_alife_info("detective_achievement_gained") and not has_alife_info("zat_stalker_medic_spawn") and startTimer == 0 then
+		startTimer = game.get_game_time()
+	end
+	if has_alife_info("detective_achievement_gained") and not has_alife_info("zat_stalker_medic_spawn") and game.get_game_time():diffSec(startTimer) > 86400 then
+		alife():create("zat_stalker_medic",vector():set(110.023,-3.936,185.844),1155265,316)
+		give_info("zat_stalker_medic_spawn")
+	end
+end
