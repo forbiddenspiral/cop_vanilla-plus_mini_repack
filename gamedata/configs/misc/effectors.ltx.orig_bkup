@@ -1,15 +1,13 @@
-;Reduced headbob by NatVac, derived from work by PiIsARational
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Actor Effector Section
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [bobbing_effector]
 
-run_amplitude			=	0.00375; 0.0075
-walk_amplitude			=	0.0025; 0.005
-limp_amplitude			=	0.0055; 0.011
-cam_inert	0
+run_amplitude			=	0.0075
+walk_amplitude			=	0.005
+limp_amplitude			=	0.011
+
 run_speed				=	10.0
 walk_speed				=   7.0
 limp_speed				=	6.0
