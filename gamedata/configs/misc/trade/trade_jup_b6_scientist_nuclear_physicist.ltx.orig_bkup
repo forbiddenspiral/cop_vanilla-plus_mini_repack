@@ -1,7 +1,7 @@
 [trader]
 buy_condition = trade_generic_buy 
 sell_condition = trade_generic_sell
-buy_supplies = {+pioneer_achievement_gained +research_man_gained +zat_b30_actor_gave_detector} supplies_advanced_anobiotik_detector, {+pioneer_achievement_gained +research_man_gained -zat_b30_actor_gave_detector} supplies_advanced_anobiotik, {+pioneer_achievement_gained -research_man_gained +zat_b30_actor_gave_detector} supplies_anobiotik_detector, {+pioneer_achievement_gained -research_man_gained -zat_b30_actor_gave_detector} supplies_anobiotik, {+research_man_gained -pioneer_achievement_gained +zat_b30_actor_gave_detector} supplies_advanced_detector, {+research_man_gained -pioneer_achievement_gained -zat_b30_actor_gave_detector} supplies_advanced, {+zat_b30_actor_gave_detector -research_man_gained -pioneer_achievement_gained} supplies_start_detector, supplies_start
+buy_supplies = {+pioneer_achievement_gained +research_man_gained} supplies_advanced_anobiotik, {+pioneer_achievement_gained -research_man_gained} supplies_anobiotik, {+research_man_gained -pioneer_achievement_gained} supplies_advanced, supplies_start
 discounts = {+pioneer_achievement_gained +research_man_gained} discount_2, {+research_man_gained} discount
 
 [discount]
@@ -547,6 +547,7 @@ drug_psy_blockade		= 10, 0.35
 
 ;Предметы
 detector_elite			= 2,	1
+detector_scientific		= 1,	0.0001
 
 [supplies_anobiotik]:supplies_start
 drug_anabiotic			= 1, 1
@@ -567,17 +568,10 @@ drug_anabiotic			= 1, 1
 
 ;Предметы
 detector_elite			= 2, 1
-
-[supplies_start_detector]:supplies_start
 detector_scientific		= 1,	0.0001
 
-[supplies_anobiotik_detector]:supplies_anobiotik
-detector_scientific		= 1,	0.0001
 
-[supplies_advanced_detector]:supplies_advanced
-detector_scientific		= 1,	0.0001
 
-[supplies_advanced_anobiotik_detector]:supplies_advanced_anobiotik
-detector_scientific		= 1,	0.0001
+
 
                                                                                                                                                                                                                                                                                                                     
