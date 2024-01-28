@@ -1,6 +1,6 @@
 local ammo_aggregation = true
 local flints_loot = true
-local tremor_replacement = false
+local tremor_replacement = true
 
 function init    (obj)
 				xr_motivator.AddToMotivator(obj)
