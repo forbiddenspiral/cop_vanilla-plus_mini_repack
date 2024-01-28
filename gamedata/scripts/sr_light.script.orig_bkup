@@ -1,6 +1,6 @@
 -- nv 100922 AI can turn off lights if aware of enemy
 
-ai_smart_lights = true
+ai_smart_lights = false
 
 local light_zones = {}
 
