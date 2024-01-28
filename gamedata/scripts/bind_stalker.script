@@ -1,5 +1,5 @@
 local ammo_aggregation = true
-local flints_loot = false
+local flints_loot = true
 local tremor_replacement = false
 
 function init    (obj)
