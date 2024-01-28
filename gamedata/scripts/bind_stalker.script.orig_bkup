@@ -1,4 +1,4 @@
-local ammo_aggregation = true
+local ammo_aggregation = false
 local flints_loot = false
 local tremor_replacement = false
 
