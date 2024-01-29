@@ -15,7 +15,7 @@
 	</deadbody_location>
 
 	<enemy_mini_spot width="7" height="7" stretch="1" alignment="c" >
-		<texture r="255" g="0" b="0">ui_mmap_common_actor</texture>
+		<texture r="255" g="0" b="0" a="0">ui_mmap_common_actor</texture>
 	</enemy_mini_spot>
 
 	<neutral_mini_spot width="7" height="7" stretch="1" alignment="c">
