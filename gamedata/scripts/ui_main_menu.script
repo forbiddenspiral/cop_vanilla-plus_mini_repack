@@ -337,6 +337,18 @@ function main_menu:Dispatch(cmd, param)  --virtual function
 	return true
 end
 
+function main_menu:OnButton_save_level_clicked()
+
+	local y, m, d, h, min, sec, ms = 0, 0, 0, 0, 0, 0, 0
+	      y, m, d, h, min, sec, ms = game.get_game_time():get(y, m, d, h, min, sec, ms)
+
+	local date_time = string.format("_%d-%02d-%02d_%02d%02d", y, m, d, h, min)
+	local console = get_console()
+
+	console:execute("main_menu off")
+	console:execute("save " .. level.name() .. date_time)
+end
+
 function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 	CUIScriptWnd.OnKeyboard(self,dik,keyboard_action)
 	local bind = dik_to_bind(dik)
@@ -357,6 +369,15 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 --			self:OnButton_load_spawn()
 
 --		else
+
+		local alive_in_singleplayer = level.present() and db.actor ~= nil and db.actor:alive() and IsGameTypeSingle()
+		
+		if alive_in_singleplayer then
+			if dik == DIK_keys.DIK_S then
+				self.OnButton_save_level_clicked()
+			end			
+		end
+		
 		if dik == DIK_keys.DIK_Q and use_quit_hotkey then
 			self:OnMessageQuitWin()
 		end
