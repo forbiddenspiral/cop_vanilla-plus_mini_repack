@@ -33,6 +33,8 @@
   <color name="ui_10"     r="225" g="225" b="250"/>
   
   <color name="ui_mm_font"     r="41" g="27" b="16"/>
+  
+  <color name="ui_alpha"     r="0" g="0" b="0" a="0"/>
 
   <color name="pda_green"   r="25"  g="123" b="48"/>
   <color name="pda_yellow"  r="248" g="148" b="29"/>
