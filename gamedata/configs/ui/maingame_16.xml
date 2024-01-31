@@ -102,7 +102,7 @@
 
 	<new_contact_snd>detectors\contact_1</new_contact_snd>
 
-    <quick_slot0 x="16" y="710" width="33" height="40" stretch="1">
+    <quick_slot0 x="-50" y="-50" width="33" height="40" stretch="1"><!-- x="16" y="710" -->
 	    <counter x="1" y="1" width="23" height="16" stretch="1">
 			<window_name>counter</window_name>
 	        <texture a="200">ui_item_count_back</texture>
@@ -112,7 +112,7 @@
 			<texture>ui_inGame2_Patroni_HUD_active_items_icon</texture>
         </auto_frameline>
     </quick_slot0>
-    <quick_slot1 x="56" y="710" width="33" height="41" stretch="1">
+    <quick_slot1 x="-50" y="-50" width="33" height="41" stretch="1"><!-- x="56" y="710" -->
 	    <counter x="1" y="1" width="23" height="16" stretch="1">
 			<window_name>counter</window_name>
 	        <texture a="200">ui_item_count_back</texture>
@@ -122,7 +122,7 @@
 			<texture>ui_inGame2_Patroni_HUD_active_items_icon</texture>
         </auto_frameline>
     </quick_slot1>
-    <quick_slot2 x="96" y="710" width="33" height="41" stretch="1">
+    <quick_slot2 x="-50" y="-50" width="33" height="41" stretch="1"><!-- x="96" y="710" -->
 	    <counter x="1" y="1" width="23" height="16" stretch="1">
 			<window_name>counter</window_name>
 	        <texture a="200">ui_item_count_back</texture>
@@ -132,7 +132,7 @@
 			<texture>ui_inGame2_Patroni_HUD_active_items_icon</texture>
         </auto_frameline>
     </quick_slot2>
-    <quick_slot3 x="136" y="710" width="33" height="41" stretch="1">
+    <quick_slot3 x="-50" y="-50" width="33" height="41" stretch="1"><!-- x="136" y="710" -->
 	    <counter x="1" y="1" width="23" height="16" stretch="1">
 			<window_name>counter</window_name>
 	        <texture a="200">ui_item_count_back</texture>
@@ -143,16 +143,16 @@
         </auto_frameline>
     </quick_slot3>
     <quick_slot0_text x="33" y="747" width="17" height="13">
-        <text align="c" vert_align="c" font="letterica16">quick_use_str_1</text>
+        <text align="c" vert_align="c" font="letterica16" color="ui_alpha">quick_use_str_1</text>
     </quick_slot0_text>
     <quick_slot1_text x="73" y="747" width="17" height="13">
-        <text align="c" vert_align="c" font="letterica16">quick_use_str_2</text>
+        <text align="c" vert_align="c" font="letterica16" color="ui_alpha">quick_use_str_2</text>
     </quick_slot1_text>
     <quick_slot2_text x="113" y="747" width="17" height="13">
-        <text align="c" vert_align="c" font="letterica16">quick_use_str_3</text>
+        <text align="c" vert_align="c" font="letterica16" color="ui_alpha">quick_use_str_3</text>
     </quick_slot2_text>
     <quick_slot3_text x="153" y="747" width="17" height="13">
-        <text align="c" vert_align="c" font="letterica16">quick_use_str_4</text>
+        <text align="c" vert_align="c" font="letterica16" color="ui_alpha">quick_use_str_4</text>
     </quick_slot3_text>
 
 	<hud_states x="0" y="0" width="1024" height="768" stretch="1">
