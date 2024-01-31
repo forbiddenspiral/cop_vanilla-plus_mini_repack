@@ -210,7 +210,7 @@
 	        <text align="c" complex_mode="0" font="graffiti19" color="ui_alpha">ap</text>
 	    </static_ap_ammo>
 
-	    <static_grenade x="864" y="690" width="14" height="19">
+	    <static_grenade x="-30" y="-30" width="14" height="19"><!-- x="864" y="690" -->
 	        <text align="c" complex_mode="0" font="letterica16" color="ui_alpha" vert_align="c">gr</text>
 	    </static_grenade>
 
