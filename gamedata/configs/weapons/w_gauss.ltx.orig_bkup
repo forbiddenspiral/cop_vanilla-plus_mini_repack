@@ -236,7 +236,7 @@ anm_idle_sprint					= gauss_idle_sprint
 ;<--UMIROTVORITEL
 [pri_a17_gauss_rifle]:wpn_gauss	;Gauss UMIROTVORITEL
 $spawn							= "weapons\uniq\pri_a17_gauss_rifle"
-quest_item						= false
+quest_item						= true
 story_id						= pri_a17_gauss_rifle
 hud								= wpn_gauss_hud
 inv_name						= st_wpn_umirotvoritel
