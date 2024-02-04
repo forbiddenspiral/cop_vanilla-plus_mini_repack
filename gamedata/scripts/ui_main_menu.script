@@ -12,6 +12,9 @@ local quit_without_asking = false
 -- set this to false if you don't want the Q key to quit
 local use_quit_hotkey = true
 
+-- set this to true if you want the hide/restore HUD feature
+local _toggle_hud = false
+
 class "main_menu" (CUIScriptWnd)
 
 function main_menu:__init() super()
@@ -375,6 +378,12 @@ function main_menu:OnKeyboard(dik, keyboard_action)  --virtual function
 		if alive_in_singleplayer then
 			if dik == DIK_keys.DIK_S then
 				self.OnButton_save_level_clicked()
+			elseif dik == DIK_keys.DIK_F3 and _toggle_hud then
+				level.hide_indicators_safe()
+				self.OnButton_return_game()                      --' xStream 02.2008
+			elseif dik == DIK_keys.DIK_F4 and _toggle_hud then
+				level.show_indicators()
+				self.OnButton_return_game()                      --' xStream 02.2008
 			end			
 		end
 		
