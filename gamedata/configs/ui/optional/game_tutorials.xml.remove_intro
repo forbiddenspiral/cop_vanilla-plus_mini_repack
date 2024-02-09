@@ -16,6 +16,21 @@
         <widescreen_rect width="1024" height="768"/>
         <texture width="638" height="358">intro\video_talk_with_ssu</texture>
     	</auto_static>
+			<auto_static  start_time="0" length_sec="10" x="500" y="870" width="870" height="500" alignment="c" stretch="1" light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
+				<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_2</text>
+			</auto_static>
+			<auto_static  start_time="12" length_sec="14" x="500" y="870" width="870" height="500" alignment="c" stretch="1" light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
+				<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">characters_voice_scenario_pripyat_pri_a28_actor_to_ssu_2</text>
+			</auto_static>
+			<auto_static  start_time="27" length_sec="7" x="500" y="870" width="870" height="500" alignment="c" stretch="1" light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
+				<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_3</text>
+			</auto_static>
+			<auto_static  start_time="34" length_sec="14" x="500" y="870" width="870" height="500" alignment="c" stretch="1" light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
+				<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">characters_voice_scenario_pripyat_pri_a28_actor_to_ssu_with_heli_info</text>
+			</auto_static>
+			<auto_static  start_time="48" length_sec="14" x="500" y="870" width="870" height="500" alignment="c" stretch="1" light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
+				<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_5</text>
+			</auto_static>
 		</main_wnd>
 	</item>
 	</talk_ssu>
@@ -31,8 +46,8 @@
       <function_on_start>outro_cond.start_bk_sound</function_on_start>
       <function_on_stop>outro_cond.stop_bk_sound</function_on_stop>
     </global_wnd>
-    
-    <!------ 0_pause -->
+
+    <!-- 0_pause -->
 		<item>
 			<length_sec>8</length_sec>
       <function_on_frame>outro_cond.update_bk_sound_fade_start</function_on_frame>
@@ -44,7 +59,7 @@
    			</auto_static>
 			</main_wnd>
 		</item>
-<!------ 1_medal -->
+<!-- 1_medal -->
 		<item>
 			<length_sec>21</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_1</sound>
@@ -55,11 +70,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="21" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_1" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_1</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_1</text>
 				</auto_static>
  	  		</main_wnd>
 		</item>
-<!------ 2_top_secret -->
+<!-- 2_top_secret -->
 		<item>
 			<length_sec>25</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_2</sound>
@@ -70,11 +85,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="25" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_2" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_2</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_2</text>
 				</auto_static>
 			</main_wnd>
 		</item>
-<!------ 3_product_62 -->
+<!-- 3_product_62 -->
 		<item>
 			<length_sec>24</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_3</sound>
@@ -85,11 +100,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="24" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_3" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_3</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_3</text>
 				</auto_static>
 			</main_wnd>
 		</item>
-<!------ 4a_skadovsk_good -->
+<!-- 4a_skadovsk_good -->
 		<item>
 			<length_sec>32</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_4_a</sound>
@@ -101,11 +116,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="32" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_4a" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_4_a</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_4_a</text>
 				</auto_static>
 			</main_wnd>
 		</item>
-<!------ 4b_skadovsk_bad -->
+<!-- 4b_skadovsk_bad -->
 		<item>
 			<length_sec>35</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_4_b</sound>
@@ -117,11 +132,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="35" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_4b" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_4_b</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_4_b</text>
 				</auto_static>
 			</main_wnd>
 		</item>
-<!------ 4c_skadovsk_neutral -->
+<!-- 4c_skadovsk_neutral -->
 		<item>
 			<length_sec>22</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_4_c</sound>
@@ -133,11 +148,11 @@
     			</auto_static>
 				<auto_static start_time="0" length_sec="22" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_4c" la_cyclic="0" la_texture="1" la_alpha="1">
-					<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_4_c</text>
+					<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_4_c</text>
 				</auto_static>
 			</main_wnd>
 		</item>
-<!------ 5a_bloodsucker_live -->
+<!-- 5a_bloodsucker_live -->
 		<item>
 			<length_sec>29</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_5_a</sound>
@@ -149,11 +164,11 @@
         		</auto_static>
         		<auto_static start_time="0" length_sec="29" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_5a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_5_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_5_a</text>
         		</auto_static>
       		</main_wnd>
     	</item>
-<!------ 5b_bloodsucker_dead -->
+<!-- 5b_bloodsucker_dead -->
 		<item>
 			<length_sec>18</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_5_b</sound>
@@ -165,11 +180,11 @@
     			</auto_static>
         		<auto_static start_time="0" length_sec="18" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_5b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_5_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_5_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 6a_dolg_die -->
+<!-- 6a_dolg_die -->
 		<item>
 			<length_sec>22</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_6_a</sound>
@@ -181,11 +196,11 @@
     			</auto_static>
         		<auto_static start_time="0" length_sec="22" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_6a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_6_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_6_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 6b_freedom_die -->
+<!-- 6b_freedom_die -->
 		<item>
 			<length_sec>16</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_6_b</sound>
@@ -197,11 +212,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="16" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_6b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_6_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_6_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 6c_dolg_n_freedom -->
+<!-- 6c_dolg_n_freedom -->
 		<item>
 			<length_sec>14</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_6_c</sound>
@@ -213,11 +228,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="14" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_6c" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_6_c</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_6_c</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 7a_scientist_good -->
+<!-- 7a_scientist_good -->
 		<item>
 			<length_sec>21</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_7_a</sound>
@@ -229,11 +244,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="21" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_7a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_7_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_7_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 7b_scientist_bad -->
+<!-- 7b_scientist_bad -->
 		<item>
 			<length_sec>16</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_7_b</sound>
@@ -245,11 +260,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="16" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_7b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_7_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_7_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 8a_garik_good -->
+<!-- 8a_garik_good -->
 		<item>
 			<length_sec>23</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_8_a</sound>
@@ -261,11 +276,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="23" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_8a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_8_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_8_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 8b_garik_bad -->
+<!-- 8b_garik_bad -->
 		<item>
 			<length_sec>17</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_8_b</sound>
@@ -277,11 +292,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="17" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_8b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_8_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_8_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 9_oasis -->
+<!-- 9_oasis -->
 		<item>
 			<length_sec>30</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_9</sound>
@@ -293,11 +308,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="30" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_9" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_9</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_9</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 10_mercenarys -->
+<!-- 10_mercenarys -->
 		<item>
 			<length_sec>19</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_10</sound>
@@ -309,11 +324,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="19" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_10" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_10</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_10</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 11a_yanov_good -->
+<!-- 11a_yanov_good -->
 		<item>
 			<length_sec>17</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_11_a</sound>
@@ -325,11 +340,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="17" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_11a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_11_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_11_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 11b_yanov_bad -->
+<!-- 11b_yanov_bad -->
 		<item>
 			<length_sec>23</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_11_b</sound>
@@ -341,11 +356,11 @@
         		</auto_static>
         		<auto_static start_time="0" length_sec="23" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_11b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_11_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_11_b</text>
         		</auto_static>
       		</main_wnd>
     	</item>
-<!------ 12a_zuluz_good -->
+<!-- 12a_zuluz_good -->
 		<item>
 			<length_sec>16</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_12_a</sound>
@@ -357,11 +372,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="16" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_12a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_12_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_12_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 12b_zuluz_bad -->
+<!-- 12b_zuluz_bad -->
 		<item>
 			<length_sec>15</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_12_b</sound>
@@ -373,11 +388,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="15" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_12b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_12_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_12_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 13a_vano_good -->
+<!-- 13a_vano_good -->
 		<item>
 			<length_sec>17</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_13_a</sound>
@@ -389,11 +404,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="17" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_13a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_13_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_13_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 13b_vano_bad -->
+<!-- 13b_vano_bad -->
 		<item>
 			<length_sec>18</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_13_b</sound>
@@ -405,11 +420,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="18" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_13b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_13_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_13_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 14a_brodyaga_good -->
+<!-- 14a_brodyaga_good -->
 		<item>
 			<length_sec>13</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_14_a</sound>
@@ -421,11 +436,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="13" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_14a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_14_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_14_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 14b_brodyaga_bad -->
+<!-- 14b_brodyaga_bad -->
 		<item>
 			<length_sec>11</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_14_b</sound>
@@ -437,11 +452,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="11" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_14b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_14_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_14_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 15a_sokolov_good -->
+<!-- 15a_sokolov_good -->
 		<item>
 			<length_sec>23</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_15_a</sound>
@@ -453,11 +468,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="23" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_15a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_15_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_15_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 15b_sokolov_bad -->
+<!-- 15b_sokolov_bad -->
 		<item>
 			<length_sec>12</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_15_b</sound>
@@ -469,11 +484,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="12" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_15b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_15_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_15_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 16_sich -->
+<!-- 16_sich -->
 		<item>
 			<length_sec>12</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_16</sound>
@@ -485,11 +500,11 @@
    				</auto_static>
        			<auto_static start_time="0" length_sec="12" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_16" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_16</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_16</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 17_noahs_ark -->
+<!-- 17_noahs_ark -->
 		<item>
 			<length_sec>25</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_17</sound>
@@ -501,11 +516,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="25" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_17" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_17</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_17</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 18a_kardan_good -->
+<!-- 18a_kardan_good -->
 		<item>
 			<length_sec>23</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_18_a</sound>
@@ -517,11 +532,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="23" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_18a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_18_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_18_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 18b_kardan_bad -->
+<!-- 18b_kardan_bad -->
 		<item>
 			<length_sec>20</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_18_b</sound>
@@ -533,11 +548,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="20" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_18b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_18_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_18_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 19a_strelok_live -->
+<!-- 19a_strelok_live -->
 		<item>
 			<length_sec>21</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_19_a</sound>
@@ -549,11 +564,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="21" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_19a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_19_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_19_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 19b_strelok_die -->
+<!-- 19b_strelok_die -->
 		<item>
 			<length_sec>18</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_19_b</sound>
@@ -565,11 +580,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="18" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_19b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_19_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_19_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 20a_kovalski_live -->
+<!-- 20a_kovalski_live -->
 		<item>
 			<length_sec>22</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_20_a</sound>
@@ -581,11 +596,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="22" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_20a" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_20_a</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_20_a</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 20b_kovalski_die -->
+<!-- 20b_kovalski_die -->
 		<item>
 			<length_sec>18</length_sec>
       		<sound>characters_voice\scenario\pripyat\pri_a28_outro_phrase_20_b</sound>
@@ -597,11 +612,11 @@
    				</auto_static>
         		<auto_static start_time="0" length_sec="18" x="500" y="870" width="870" height="500" alignment="c" stretch="1"
 					light_anim="pri_a28_phrase_20b" la_cyclic="0" la_texture="1" la_alpha="1">
-          			<text align="c" font="graffiti22" r="100" g="100" b="100" a="255">pri_a28_outro_phrase_20_b</text>
+          			<text align="c" font="graffiti22" r="225" g="225" b="225" a="255">pri_a28_outro_phrase_20_b</text>
         		</auto_static>
 			</main_wnd>
 		</item>
-<!------ 21_final_picture -->
+<!-- 21_final_picture -->
 		<item>
 			<length_sec>25</length_sec>
       		<function_on_frame>outro_cond.update_bk_sound_fade_stop</function_on_frame>
@@ -658,7 +673,7 @@
 
 #include "ui\ui_credits.xml"
 
-<!------ No intro -->
+<!-- No intro -->
 <intro_logo>
 	<global_wnd>
 		<auto_static>
@@ -669,9 +684,9 @@
 			<auto_static>
 			</auto_static>
 		</main_wnd>
-	</item> 
+	</item>
 </intro_logo>
-<!------ No intro -->
+<!-- No intro -->
 
 <intro_game>
    <global_wnd width="1024" height="768">

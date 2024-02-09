@@ -1,0 +1,416 @@
+-----------------------------------------------------------
+-- Szinkronfeliratok
+-----------------------------------------------------------
+-- Keszitette: The Sweet Little 16-bit (tsl16b@freemail.hu)
+-----------------------------------------------------------
+-- forgottenspiral
+-- v0.2
+-----------------------------------------------------------
+
+--id																			= texture
+tips_icons =
+{
+	jup_a6_stalker_medik										=	"ui_inGame2_Kostoprav",
+	jup_b217_stalker_tech										=	"ui_inGame2_Azot",
+	jup_b220_trapper												=	"ui_inGame2_Zveroboy",
+	jup_b43_stalker_assistant								=	"ui_inGame2_Garik",
+	jup_b46_duty_founder										=	"ui_inGame2_Dolg_4",
+	jup_b6_scientist_nuclear_physicist			=	"ui_inGame2_German",
+	pri_a17_military_colonel_kovalski				=	"ui_inGame2_Kovalskiy",
+	pri_a22_army_signaller									= "ui_inGame2_Soldier_2",
+	pri_b305_strelok												=	"ui_inGame2_Strelok",
+	zat_a2_stalker_barmen										=	"ui_inGame2_Boroda",
+	zat_a2_stalker_nimble										=	"ui_inGame2_neutral_1",
+	zat_b18_noah														=	"ui_inGame2_Noy",
+	zat_b22_stalker_medic										=	"ui_inGame2_Tremor",
+	zat_b30_owl_stalker_trader							=	"ui_inGame2_Sich",
+	zat_b38_stalker_cop											=	"ui_inGame2_Gluhar",
+	zat_stalker_actor												=	"ui_inGame2_Hero",
+	bandit_3																= "ui_inGame2_bandit_3",
+	soldier_2																= "ui_inGame2_Soldier_2",
+	soldier_3																= "ui_inGame2_Soldier_3",
+	soldier_4																= "ui_inGame2_Soldier_4",
+	stalker_1																=	"ui_inGame2_neutral_1",
+	stalker_2																=	"ui_inGame2_neutral_2",
+	stalker_2_mask													=	"ui_inGame2_neutral_2_mask",
+	temporal_icon														= "ui_inGame2_Zombied_4",
+}
+
+--id																			=	{showtime}
+mob_snds =
+{
+}
+
+--id																															=	{showtime}
+npc_snds =
+{
+	characters_voice_scenario_jupiter_jup_a6_duty_leader_farewell_1	=	{1.8},
+	characters_voice_scenario_jupiter_jup_a6_duty_leader_farewell_2	=	{2.9},
+	characters_voice_scenario_jupiter_jup_a6_duty_leader_greeting_1	=	{1.2},
+	characters_voice_scenario_jupiter_jup_a6_duty_leader_greeting_2	=	{1.4},
+	characters_voice_scenario_jupiter_jup_a6_freedom_leader_farewell_1	=	{0.7},
+	characters_voice_scenario_jupiter_jup_a6_freedom_leader_farewell_2	=	{0.8},
+	characters_voice_scenario_jupiter_jup_a6_freedom_leader_greeting_1	=	{1.7},
+	characters_voice_scenario_jupiter_jup_a6_freedom_leader_greeting_2	=	{3.6},
+	characters_voice_scenario_jupiter_jup_a6_stalker_barmen_farewell_1	=	{3.7},
+	characters_voice_scenario_jupiter_jup_a6_stalker_barmen_farewell_2	=	{0.8},
+	characters_voice_scenario_jupiter_jup_a6_stalker_barmen_greeting_1	=	{4.6},
+	characters_voice_scenario_jupiter_jup_a6_stalker_barmen_greeting_2	=	{2},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_farewell_1	=	{4.8},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_farewell_2	=	{1.4},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_greeting_1	=	{5.3},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_greeting_2	=	{4},
+	characters_voice_scenario_jupiter_jup_b15_zulus_greeting	=	{0.6},
+	characters_voice_scenario_jupiter_jup_b1_stalkers_greeting	=	{8.1},
+	characters_voice_scenario_jupiter_jup_b217_stalker_tech_farewell_1	=	{0.6},
+	characters_voice_scenario_jupiter_jup_b217_stalker_tech_farewell_2	=	{0.9},
+	characters_voice_scenario_jupiter_jup_b217_stalker_tech_greeting_1	=	{0.7},
+	characters_voice_scenario_jupiter_jup_b217_stalker_tech_greeting_2	=	{0.5},
+	characters_voice_scenario_jupiter_jup_b220_trapper_farewell_1	=	{1.1},
+	characters_voice_scenario_jupiter_jup_b220_trapper_farewell_2	=	{1.2},
+	characters_voice_scenario_jupiter_jup_b220_trapper_greeting_1	=	{0.9},
+	characters_voice_scenario_jupiter_jup_b220_trapper_greeting_2	=	{1.2},
+	characters_voice_scenario_jupiter_jup_b6_scientist_biochemist_farewell_1	=	{1},
+	characters_voice_scenario_jupiter_jup_b6_scientist_biochemist_farewell_2	=	{1.3},
+	characters_voice_scenario_jupiter_jup_b6_scientist_biochemist_greeting_1	=	{3.3},
+	characters_voice_scenario_jupiter_jup_b6_scientist_biochemist_greeting_2	=	{2},
+	characters_voice_scenario_jupiter_jup_b6_scientist_medic_farewell_1	=	{0.9},
+	characters_voice_scenario_jupiter_jup_b6_scientist_medic_farewell_2	=	{1.1},
+	characters_voice_scenario_jupiter_jup_b6_scientist_medic_greeting_1	=	{1.1},
+	characters_voice_scenario_jupiter_jup_b6_scientist_medic_greeting_2	=	{0.6},
+	characters_voice_scenario_jupiter_jup_b6_scientist_nuclear_physicist_farewell_1	=	{1.5},
+	characters_voice_scenario_jupiter_jup_b6_scientist_nuclear_physicist_farewell_2	=	{3.1},
+	characters_voice_scenario_jupiter_jup_b6_scientist_nuclear_physicist_greeting_1	=	{4.9},
+	characters_voice_scenario_jupiter_jup_b6_scientist_nuclear_physicist_greeting_2	=	{3.2},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_farewell_1	=	{5.3},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_farewell_2	=	{3.5},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_farewell_angry_1	=	{3.9},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_farewell_angry_2	=	{5.7},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_greeting_1	=	{3.1},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_greeting_2	=	{3.2},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_greeting_angry_1	=	{6.7},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_greeting_angry_2	=	{1.3},
+	characters_voice_scenario_zaton_zat_b18_noah_greetings_1	=	{2},
+	characters_voice_scenario_zaton_zat_b18_noah_greetings_2	=	{2.9},
+	characters_voice_scenario_zaton_zat_b18_noah_greetings_3	=	{2.5},
+	characters_voice_scenario_zaton_zat_b215_stalker_guide_farewell_1	=	{1.6},
+	characters_voice_scenario_zaton_zat_b215_stalker_guide_farewell_2	=	{0.9},
+	characters_voice_scenario_zaton_zat_b215_stalker_guide_greeting_1	=	{0.7},
+	characters_voice_scenario_zaton_zat_b215_stalker_guide_greeting_2	=	{2.1},
+	characters_voice_scenario_zaton_zat_b22_stalker_medic_farewell_1	=	{2.9},
+	characters_voice_scenario_zaton_zat_b22_stalker_medic_farewell_2	=	{1},
+	characters_voice_scenario_zaton_zat_b22_stalker_medic_greeting_1	=	{4.8},
+	characters_voice_scenario_zaton_zat_b22_stalker_medic_greeting_2	=	{3.2},
+	characters_voice_scenario_zaton_zat_b30_owl_stalker_trader_farewell_1	=	{4.1},
+	characters_voice_scenario_zaton_zat_b30_owl_stalker_trader_farewell_2	=	{2.2},
+	characters_voice_scenario_zaton_zat_b30_owl_stalker_trader_greeting_1	=	{2.3},
+	characters_voice_scenario_zaton_zat_b30_owl_stalker_trader_greeting_2	=	{7.2},
+	characters_voice_scenario_zaton_zat_b33_stalker_snag_greeting_gun	=	{3.5},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_1	=	{2.9},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_2	=	{2.3},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_3	=	{2.3},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_not_ready_1	=	{2.6},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_not_ready_2	=	{2.4},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_not_ready_3	=	{2.8},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_ready_1	=	{3},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_ready_2	=	{2.1},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_greeting_order_ready_3	=	{3.6},
+	characters_voice_scenario_zaton_zat_b7_bandit_boss_sultan_farewell_1	=	{3.8},
+	characters_voice_scenario_zaton_zat_b7_bandit_boss_sultan_farewell_2	=	{3.2},
+	characters_voice_scenario_zaton_zat_b7_bandit_boss_sultan_greeting_1	=	{1.7},
+	characters_voice_scenario_zaton_zat_b7_bandit_boss_sultan_greeting_2	=	{4.5},
+}
+
+--id																																=	{showtime, sender}
+actor_snds =
+{
+	characters_voice_scenario_jupiter_jup_a9_actor_conservation_info	=	{4.5, "zat_stalker_actor"},
+	characters_voice_scenario_jupiter_jup_a9_actor_power_info	=	{6.4, "zat_stalker_actor"},
+	characters_voice_scenario_jupiter_jup_a9_actor_way_info	=	{6.7, "zat_stalker_actor"},
+	characters_voice_scenario_jupiter_jup_b212_trapper_found_chimera	=	{11.2, "jup_b220_trapper"},
+	characters_voice_scenario_jupiter_jup_a12_stalkers_to_actor_came_back	=	{2.6, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b10_ufo_memory_repaired_nitro	=	{4.4, "jup_b217_stalker_tech"},
+	characters_voice_scenario_jupiter_jup_b1_stalkers_monsters_beat_off	=	{4.6, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_first_measurement_done	=	{3.4, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_second_measurement_done	=	{2.8, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_third_measurement_done	=	{2.9, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_fourth_measurement_done	=	{2.1, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_measurements_done	=	{2.4, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_first_measurement_in_progress	=	{1.2, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_second_measurement_in_progress	=	{2.4, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_third_measurement_in_progress	=	{3, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_fourth_measurement_in_progress	=	{3.1, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_1	=	{2.1, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_2	=	{1.8, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_3	=	{1.5, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_4	=	{1.9, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_5	=	{1.9, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b6_stalker_1_monsters_coming_6	=	{1.7, "stalker_2_mask"},
+	characters_voice_scenario_jupiter_jup_b202_bandit_pda	=	{7.3, "bandit_3"},
+	characters_voice_scenario_jupiter_jup_b9_heli_1_blackbox	=	{17.8, "zat_stalker_actor"},
+	characters_voice_scenario_jupiter_jup_b9_blackbox_records	=	{17.1, "soldier_2"},
+	characters_voice_scenario_jupiter_jup_b202_snag_pda	=	{17.3, "stalker_1"},
+	characters_voice_scenario_jupiter_jup_b46_spatial_bubble_sos_1	=	{2.8, "jup_b46_duty_founder"},
+	characters_voice_scenario_jupiter_jup_b46_spatial_bubble_sos_2	=	{5.4, "jup_b46_duty_founder"},
+	characters_voice_scenario_jupiter_jup_b46_spatial_bubble_sos_3	=	{3.8, "jup_b46_duty_founder"},
+	characters_voice_scenario_jupiter_jup_b46_duty_founder_pda_diary	=	{47.2, "jup_b46_duty_founder"},
+	characters_voice_scenario_jupiter_jup_b219_tech_ready	=	{0.9, "jup_b217_stalker_tech"},
+	characters_voice_scenario_jupiter_jup_b219_tech_to_duty	=	{1.2, "jup_b217_stalker_tech"},
+	characters_voice_scenario_jupiter_jup_b219_tech_opening	=	{2, "jup_b217_stalker_tech"},
+	characters_voice_scenario_jupiter_jup_b41_base_alarm	=	{8.7, "jup_b6_scientist_nuclear_physicist"},
+	characters_voice_scenario_jupiter_jup_b41_base_relax	=	{7.5, "jup_b6_scientist_nuclear_physicist"},
+	characters_voice_scenario_jupiter_jup_a6_base_alarm	=	{9.8, "jup_a6_stalker_medik"},
+	characters_voice_scenario_jupiter_jup_a6_base_relax	=	{8, "jup_a6_stalker_medik"},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_phase_1	=	{5.7, "jup_a6_stalker_medik"},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_phase_2	=	{5.9, "jup_a6_stalker_medik"},
+	characters_voice_scenario_jupiter_jup_a6_stalker_medik_after_surge	=	{7.5, "jup_a6_stalker_medik"},
+	characters_voice_scenario_pripyat_pri_a22_colonel_to_actor_need_talk	=	{2.8, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a22_actor_to_base_find_squad_member	=	{10.2, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a22_base_to_actor_has_rfi_coordinates	=	{13.8, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a20_actor_report_about_squad	=	{5.9, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_give_next_task_1	=	{4, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_give_next_task_1_a21_sentry_task	=	{13.6, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a20_actor_about_next_task	=	{5.9, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_send_reinforcement	=	{5.9, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_send_reinforcement_a21_about_sentry	=	{18, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a18_kovalskiy_guard	=	{9.4, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a18_kovalskiy_squad	=	{14.5, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a18_actor_report	=	{24.5, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a21_colonel_give_sentry_task	=	{18.9, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a21_colonel_base_about_sentry	=	{7.2, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a21_actor_to_base_find_and_terminate_controller	=	{8.6, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a21_actor_to_base_find_controller	=	{8, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a21_base_to_actor_find_and_terminate_controller	=	{16.7, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a21_base_to_actor_terminate_controller	=	{10.5, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a21_actor_to_base_terminate_controller	=	{3, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a25_actor_all_doors_locked	=	{2.9, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a25_kovalski_take_explosive	=	{6.9, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_b35_rendevous_started	=	{2.5, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_merc_leader_sighted	=	{2.9, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_envoy_sighted	=	{4.2, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_rendevous_in_process	=	{2.2, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_rendevous_done	=	{2.1, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_targets_lost_end	=	{3.7, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_primary_target_down	=	{1.6, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_secondary_target_down	=	{2.1, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_primary_target_lost_end	=	{2.1, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_secondary_target_lost_end	=	{2.8, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b35_both_done_end	=	{4.5, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b305_kirilov_give_new_coordinates	=	{2.3, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b305_kirilov_signal_lost	=	{1.2, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b305_kirilov_signal_next_to_actor	=	{1.9, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b305_kirilov_source_is_near	=	{2.2, "pri_a22_army_signaller"},
+	characters_voice_scenario_pripyat_pri_b305_kovalskiy_attack_case_prepare	=	{9.9, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_b305_strelok_give_up	=	{2.9, "pri_b305_strelok"},
+	characters_voice_scenario_pripyat_pri_a28_continuation	=	{10, "jup_b43_stalker_assistant"},
+	characters_voice_scenario_pripyat_pri_a28_evac_com_helicopter_run_time	=	{3, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a20_actor_no_data	=	{5.4, "zat_stalker_actor"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_about_sentry	=	{17.7, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a20_colonel_task_done	=	{12.8, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a16_base_alarm	=	{9.7, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a16_base_relax	=	{6.1, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a17_kovalsky_surge_phase_1	=	{7.5, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a17_kovalsky_surge_phase_2	=	{8.5, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_pripyat_pri_a17_kovalsky_after_surge	=	{5.2, "pri_a17_military_colonel_kovalski"},
+	characters_voice_scenario_zaton_zat_b38_stalker_cop_find_lair_pda	=	{3.6, "zat_b38_stalker_cop"},
+	characters_voice_scenario_zaton_zat_b51_stalker_nimble_order	=	{3.1, "zat_a2_stalker_nimble"},
+	characters_voice_scenario_zaton_zat_b22_stalker_medic_diary	=	{54.5, "zat_b22_stalker_medic"},
+	characters_voice_scenario_zaton_zat_b100_heli_2_maps	=	{20.3, "zat_stalker_actor"},
+	characters_voice_scenario_zaton_zat_b101_one_heli_info	=	{5.5, "zat_stalker_actor"},
+	characters_voice_scenario_zaton_zat_b101_both_heli_info	=	{6.7, "zat_stalker_actor"},
+	characters_voice_scenario_zaton_zat_b30_owl_about_trouble	=	{4.4, "zat_b30_owl_stalker_trader"},
+	characters_voice_scenario_zaton_zat_b28_heli_3_evacuation_points	=	{22.2, "zat_stalker_actor"},
+	characters_voice_scenario_zaton_zat_b42_controller_warning_1	=	{2.6, "ui_inGame2_neutral_1"},
+	characters_voice_scenario_zaton_zat_b42_controller_warning_2	=	{3.9, "ui_inGame2_neutral_1"},
+	characters_voice_scenario_zaton_zat_b20_noah_jumped	=	{3.5, "zat_b18_noah"},
+	characters_voice_scenario_zaton_zat_b39_joker_pda_record	=	{17.5, "stalker_2"},
+	characters_voice_scenario_zaton_zat_b44_stalker_barge_pda	=	{39.5, "stalker_2_mask"},
+	characters_voice_scenario_zaton_zat_b20_noah_pda	=	{17.8, "zat_b18_noah"},
+	characters_voice_scenario_zaton_zat_a2_base_alarm	=	{5.9, "zat_a2_stalker_barmen"},
+	characters_voice_scenario_zaton_zat_a2_base_relax	=	{4.5, "zat_a2_stalker_barmen"},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_surge_phase_1	=	{7.4, "zat_a2_stalker_barmen"},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_surge_phase_2	=	{5.8, "zat_a2_stalker_barmen"},
+	characters_voice_scenario_zaton_zat_a2_stalker_barmen_after_surge	=	{5.6, "zat_a2_stalker_barmen"},
+	characters_voice_scenario_zaton_zat_a23_about_x8	=	{12.9, "zat_stalker_actor"},
+}
+
+--id																														=	{color, showtime, [distance, or sender]}
+obj_snds =
+{
+	characters_voice_scenario_jupiter_jup_b41_bunker_megaphone_1	=	{2, 5.2, 1500},
+	characters_voice_scenario_jupiter_jup_b41_bunker_megaphone_2	=	{2, 5.3, 1500},
+	characters_voice_scenario_jupiter_jup_b41_bunker_megaphone_3	=	{2, 2.5, 1500},
+	characters_voice_scenario_jupiter_jup_a6_base_megaphone_1	=	{2, 4.8, 1500},
+	characters_voice_scenario_jupiter_jup_a6_base_megaphone_2	=	{2, 3.3, 1500},
+	characters_voice_scenario_jupiter_jup_a6_base_megaphone_3	=	{2, 4.1, 1500},
+	characters_voice_scenario_pripyat_pri_a20_recon_squad_attacked	=	{-1, 14.9, "soldier_2"},
+	characters_voice_scenario_pripyat_pri_a28_center_to_colonel_1	=	{-1, 2.2, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a28_center_to_colonel_2	=	{-1, 7.1, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a28_evac_com_where_you	=	{-1, 1.6, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a28_evac_com_cant_wait	=	{-1, 3.7, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a28_center_to_colonel_3	=	{-1, 6.4, "soldier_3"},
+	characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_1	=	{-1, 2.6, "soldier_4"},
+	characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_2	=	{-1, 9.3, "soldier_4"}, -- cutscene
+	characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_3	=	{-1, 5.1, "soldier_4"}, -- cutscene
+	characters_voice_scenario_pripyat_pri_a28_ssu_to_actor_5	=	{-1, 13.2, "soldier_4"}, -- cutscene
+	characters_voice_scenario_pripyat_pri_a16_base_megaphone_1	=	{2, 3.8, 1500},
+	characters_voice_scenario_pripyat_pri_a16_base_megaphone_2	=	{2, 6.2, 1500},
+	characters_voice_scenario_pripyat_pri_a16_base_megaphone_3	=	{2, 6.9, 1500},
+	characters_voice_scenario_zaton_zat_a2_base_megaphone_1	=	{2, 5.8, 2000},
+	characters_voice_scenario_zaton_zat_a2_base_megaphone_2	=	{2, 3.5, 2000},
+	characters_voice_scenario_zaton_zat_a2_base_megaphone_3	=	{2, 3.7, 2000},
+}
+
+-- p:string
+function cc_display_mobsnd(p)
+	local cc_id = string.gsub(p, "\\", "_")
+	local cc_value = mob_snds[cc_id]
+	if cc_value then
+		cc_display_subs(cc_id, 1, cc_value[1]) -- only for Sid and Forester
+	end
+end
+
+-- cc_id:string
+function cc_display_npcsnd(cc_id)
+	local cc_value = npc_snds[cc_id]
+	if cc_value then
+		cc_display_subs("cc_" .. cc_id, 1, cc_value[1]) -- only for greetings and farewells
+	end
+end
+
+-- p:string, obj:userdata
+function cc_display_sndpath(p, obj)
+	local cc_id = string.gsub(p, "\\", "_")
+	local cc_value = actor_snds[cc_id]
+	if cc_value then
+		cc_send_tip(cc_id, cc_value[1]*1000, cc_value[2]) -- pda message
+	else
+		cc_value = obj_snds[cc_id]
+		if cc_value then
+			if cc_value[1] == -1 then
+				cc_send_tip(cc_id, cc_value[2]*1000, cc_value[3]) -- pda message
+			elseif cc_value[1] >= 1 and obj ~= nil then
+				local dist = obj:position():distance_to_sqr(db.actor:position())
+				if dist <= cc_value[3] then
+					cc_display_subs(cc_id, cc_value[1], cc_value[2]) -- megafon and soldier
+				end
+			end
+		end
+	end
+end
+
+-- cc_id:string, color:number, showtime:number
+function cc_display_subs(cc_id, color, showtime)
+	if color == nil or showtime == nil then return end
+	if db.actor:is_talking() then return end
+	if db.cc_npc == true then
+		local time_now = time_global() / 1000
+		local time_ccend = time_now + showtime
+
+		local tmpl = "closecaption_" .. color
+		local hud = get_hud()
+		hud:AddCustomStatic(tmpl, true)
+		hud:GetCustomStatic(tmpl):wnd():TextControl():SetText(game.translate_string(cc_id))
+		hud:GetCustomStatic(tmpl).m_endTime = time_ccend
+	elseif db.cc_npc == nil then
+		read_cc_ini()
+		if db.cc_npc ~= nil then
+			cc_display_subs(cc_id, color, showtime)
+		end
+	end
+end
+
+-- news_id:string, showtime:number, sender:string
+function cc_send_tip(news_id, showtime, sender)
+	if showtime == nil or sender == nil then return end
+	if db.cc_npc == true then
+
+		local texture = tips_icons[sender]
+		local news_caption = game.translate_string("st_tip") .. ":"
+		local news_text = game.translate_string(news_id)
+
+		db.actor:give_game_news(news_caption, news_text, texture, 0, showtime, 1)
+	elseif db.cc_npc == nil then
+		read_cc_ini()
+		if db.cc_npc ~= nil then
+			cc_send_tip(news_id, showtime, sender)
+		end
+	end
+end
+
+function read_cc_ini()
+	-------- read values from the closecaption.ltx file
+	-------- commented lines used as reference if they need to be used in the future
+	local cc = "closecaption"
+	-- local p_igm, cc_igm, cc_npc, cc_icc, cc_nip = true, false, false, false, false
+	local cc_npc = false
+	cc_npc = load_variable("cc_npc", 0)
+	if cc_npc == 0 then
+		local ini = ini_file("misc\\closecaption.ltx")
+		if ini:section_exist(cc) then
+			--[[
+			if ini:line_exist(cc, "play_igm") then
+       	p_igm = ini:r_bool(cc, "play_igm")
+			end
+			 ]]
+			--[[
+ 			if ini:line_exist(cc, "cc_ingame_video") then
+				cc_igm = ini:r_bool(cc, "cc_ingame_video")
+			end
+			 ]]
+			if ini:line_exist(cc, "cc_ingame_npc") then
+				cc_npc = ini:r_bool(cc, "cc_ingame_npc")
+			end
+			--[[
+ 			if ini:line_exist(cc, "cc_ingame_cc") then
+				cc_icc = ini:r_bool(cc, "cc_ingame_cc")
+			end
+			 ]]
+			--[[
+			if ini:line_exist(cc, "cc_add_new_info") then
+				cc_nip = ini:r_bool(cc, "cc_add_new_info")
+			end
+			 ]]
+			--[[
+			if ini:line_exist(cc, "cc_video_player") then
+				cc_vpl = ini:r_bool(cc, "cc_video_player")
+			end
+			 ]]
+		end
+		-- db.p_igm = p_igm
+		-- db.cc_igm = cc_igm
+		db.cc_npc = cc_npc
+		-- db.cc_icc = cc_icc
+		-- db.cc_nip = cc_nip
+		-- save_variable("cc_nip", cc_nip)
+		-- save_variable("cc_icc", cc_icc)
+		save_variable("cc_npc", cc_npc)
+		-- save_variable("cc_igm", cc_igm)
+		-- save_variable("p_igm", p_igm)
+	else
+		-- cc_nip = load_variable("cc_nip", cc_nip)
+		-- cc_icc = load_variable("cc_icc", cc_icc)
+		-- cc_igm = load_variable("cc_igm", cc_igm)
+		-- p_igm = load_variable("p_igm", p_igm)
+		-- db.p_igm = p_igm
+		-- db.cc_igm = cc_igm
+		db.cc_npc = cc_npc
+		-- db.cc_icc = cc_icc
+		-- db.cc_nip = cc_nip
+	end
+end
+
+-- code portions from the excellent AMK mod --
+function save_variable(variable_name, value)
+  xr_logic.pstor_store(db.actor, variable_name, value)
+end
+
+function load_variable(variable_name, value_if_not_found)
+  return xr_logic.pstor_retrieve(db.actor, variable_name, value_if_not_found)
+end
+
+function del_variable(variable_name)
+  if db.storage[db.actor:id()].pstor[variable_name] then
+    db.storage[db.actor:id()].pstor[variable_name] = nil
+  end
+end
