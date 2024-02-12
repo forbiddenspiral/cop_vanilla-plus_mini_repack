@@ -87,7 +87,7 @@ function actor_binder:net_destroy()
 	self.object:set_callback(callback.level_border_enter, nil)
 	self.object:set_callback(callback.level_border_exit, nil)
 	self.object:set_callback(callback.take_item_from_box, nil)
-	self.object:set_callback(callback.use_object, nil)
+	self.object:set_callback(callback.use_object, nil) -- COP and Medicine Mod
 
 	log("--------->"..tostring(_G.amb_vol))
 	log("--------->"..tostring(_G.mus_vol))
@@ -121,7 +121,7 @@ function actor_binder:reinit()
 	self.object:set_callback(callback.trade_sell_buy_item, self.on_trade, self) -- for game stats
 	self.object:set_callback(callback.task_state, self.task_callback, self)
 	self.object:set_callback(callback.take_item_from_box, self.take_item_from_box, self)
-	self.object:set_callback(callback.use_object, self.use_inventory_item, self)
+	self.object:set_callback(callback.use_object, self.use_inventory_item, self) -- COP and Medicine Mod
 end
 ----------------------------------------------------------------------------------------------------------------------
 function actor_binder:take_item_from_box(box, item)
@@ -191,6 +191,8 @@ function actor_binder:use_inventory_item(obj)
 			_G.amb_vol = get_console():get_float("snd_volume_eff")
 			get_console():execute("snd_volume_music 0")
 			get_console():execute("snd_volume_eff 0")
+		else
+			use_item.CheckSection(obj:section()) -- Medicine Mod
 		end
 	end
 end
@@ -353,7 +355,7 @@ function actor_binder:update(delta)
 		self.loaded_slot_applied = true
 	end
 	
-	xr_s.on_actor_update(delta)
+	xr_s.on_actor_update(delta) -- COP and Medicine mod
 
 	if(self.surge_manager) then
 		if(self.f_surge_manager_loaded ~= true) then
