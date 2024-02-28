@@ -1,3 +1,14 @@
+----------------------------------
+-- forgottenspiral
+-- based on _z.script by NatVac and PartyBoat
+----------------------------------
+function show_HUD_msg(static_id_string, msg_text, time)
+	local hud = get_hud()
+	local custom_static = hud:AddCustomStatic(static_id_string, true)
+	custom_static:wnd():TextControl():SetText(msg_text)
+	custom_static.m_endTime = time_global()/1000 + time
+end
+
 --For Treasure by Shredder
 function get_ammo_for_wpn(section)
 	if section and system_ini():line_exist(section, "ammo_class") then
