@@ -3,6 +3,7 @@
 COP_VANILLA_MINI_REPACK.code-workspace
 Copy-COP.ps1
 Dev-Notes.md
+Patch.ps1
 Release.ps1
 Run-COP.ps1
 Unset-Read-Only.ps1
