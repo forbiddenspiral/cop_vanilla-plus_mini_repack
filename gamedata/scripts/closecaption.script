@@ -4,7 +4,7 @@
 -- Keszitette: The Sweet Little 16-bit (tsl16b@freemail.hu)
 -----------------------------------------------------------
 -- forgottenspiral
--- v0.2
+-- v0.3
 -----------------------------------------------------------
 
 --id																			= texture
@@ -33,12 +33,6 @@ tips_icons =
 	stalker_1																=	"ui_inGame2_neutral_1",
 	stalker_2																=	"ui_inGame2_neutral_2",
 	stalker_2_mask													=	"ui_inGame2_neutral_2_mask",
-	temporal_icon														= "ui_inGame2_Zombied_4",
-}
-
---id																			=	{showtime}
-mob_snds =
-{
 }
 
 --id																															=	{showtime}
@@ -260,15 +254,6 @@ obj_snds =
 	characters_voice_scenario_zaton_zat_a2_base_megaphone_2	=	{2, 3.5, 2000},
 	characters_voice_scenario_zaton_zat_a2_base_megaphone_3	=	{2, 3.7, 2000},
 }
-
--- p:string
-function cc_display_mobsnd(p)
-	local cc_id = string.gsub(p, "\\", "_")
-	local cc_value = mob_snds[cc_id]
-	if cc_value then
-		cc_display_subs(cc_id, 1, cc_value[1]) -- only for Sid and Forester
-	end
-end
 
 -- cc_id:string
 function cc_display_npcsnd(cc_id)
