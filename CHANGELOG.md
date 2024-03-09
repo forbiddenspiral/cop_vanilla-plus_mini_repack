@@ -1,5 +1,9 @@
 # Changelog
 
+v0.2 - 03/09/2024
+
+- Updated mini-addon InGameSubs for PRP v1.2 to v0.3.
+
 v0.1 - 03/02/2024
 
 - Enabled automatic ammo boxing.
