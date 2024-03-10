@@ -41,4 +41,4 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 
 **Known Bugs or Issues:**
 
-- Potential Bug: Occasionally, giving medkits to downed NPCs might not revive them. This primarily affects non-critical gameplay and shouldn't hinder progress. I'm investigating this issue further.
+- Compatibility Note: While investigating a potential bug where medkits might not revive downed NPCs, it's been confirmed that this issue does not occur in COP.
