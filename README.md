@@ -18,6 +18,7 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 **Credits and Thanks:**
 
 - My sincere gratitude to the following modders for creating these fantastic mods:
+  - Anonymous: "Slower sprint speed" <https://www.gamefront.com/games/s-t-a-l-k-e-r-call-of-pripyat/file/slower-sprint-speed-download-fixed>
   - ColR_iT/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
     - <https://www.amk-team.ru/forum/topic/12674-medicina/>
     - <https://www.moddb.com/mods/stalker-animationssounds-for-consumables/downloads/medicine-rc-ver1-1>
