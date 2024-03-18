@@ -1,5 +1,13 @@
 # Changelog
 
+v0.3 - 03/18/2024
+
+- Restored more vanilla behavior for medical items and food. Changes:
+  - Using medical items no longer penalizes stamina.
+  - Food no longer restores stamina.
+- Made red hit marks invisible on HUD from mutants and NPCs (optional feature).
+- Slowed the sprint speed down to a much more reasonable pace.
+
 v0.2 - 03/09/2024
 
 - Updated mini-addon InGameSubs for PRP v1.2 to v0.3.
