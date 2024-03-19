@@ -34,6 +34,7 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
   - NonStopEnjoyer: "Mini crosshair Mod" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/mini-crosshair-mod>
   - pseudononymous: "Fixed Widescreen Scopes (16:9)" <https://www.gamefront.com/games/stalker/file/fixed-widescreen-scopes-16-9>
   - Rico_Heart: "Fix for misaligned and horizontally squished scopes in DX11 and DX10" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1>
+  - skidz: "CoP Spawn Menu Mod (1.1)" <https://www.gamefront.com/games/s-t-a-l-k-e-r-call-of-pripyat/file/cop-spawn-menu-mod>
   - Xavier De La Obra: "Voron COP 1.1" <https://www.moddb.com/mods/voron-cop/downloads/voron-cop-1-1>
   - XoBaaR: "Light HUD v1.4 (STALKER CoP)" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/light-hud-v14>
 - To all the amazing modders, from beginners to veterans, for sharing their tools, mods, and invaluable tutorials.
