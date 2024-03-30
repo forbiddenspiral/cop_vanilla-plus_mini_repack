@@ -1,6 +1,6 @@
 # Vanilla+ Personal Mini Repack - S.T.A.L.K.E.R.: COP Edition
 
-## Based mainly on PRP v1.2 and PartyBoat's Vanilla Twist Ideas
+## Based mainly on PRP v1.2 + Custom Gameplay Tweaks
 
 This is a personal project I'm working on to experiment with modding and learn the ropes. My goal is to preserve the core gameplay and visuals while introducing subtle tweaks to enhance immersion and replayability.
 
