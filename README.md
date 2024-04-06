@@ -10,14 +10,14 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 
 **General Notes:**
 
-- Core gameplay mechanics like ballistics, damage systems, AI, and player attributes remain unchanged from the vanilla game. Item consumable properties are modified by the Medicine Mod.
-- Due to time constraints and limited modding experience. An optional "Alternative Ballistics Core" add-on is planned to potentially port these features directly from SRP in the future.
+- Core gameplay mechanics like ballistics, damage systems, and AI remain faithful to the vanilla experience. Player attributes have been adjusted to align more closely with the values found in CS. Item consumable properties are modified by the Medicine Mod.
+- Due to time constraints and limited modding experience. An optional "Alternative Ballistics Core" addon is planned to potentially port these features directly from SRP in the future.
 - Original graphics and visuals are preserved.
 - Limited compatibility: supports 16:9 aspect ratio monitors, resolutions up to 1920x1080, and English language (subtitles included).
 
 **Credits and Thanks:**
 
-- My sincere gratitude to the following modders for creating these fantastic mods:
+- My sincere gratitude to the following modders for creating these fantastic mods and tools:
   - Anonymous: "Slower sprint speed" <https://www.gamefront.com/games/s-t-a-l-k-e-r-call-of-pripyat/file/slower-sprint-speed-download-fixed>
   - ColR_iT/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
     - <https://www.amk-team.ru/forum/topic/12674-medicina/>
