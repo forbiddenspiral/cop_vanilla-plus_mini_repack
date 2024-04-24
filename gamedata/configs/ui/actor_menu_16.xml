@@ -141,7 +141,7 @@
 	</partner_weight>
 
 	<!-- partner  -->
-	<left_delimiter x="102" y="182" width="273" height="163" stretch="1">
+	<left_delimiter x="102" y="226" width="273" height="163" stretch="1">
 		<texture>ui_inGame2_center_trade_devider</texture>
 		<trade_caption x="118" y="74" width="48" height="16">
 			<text align="l" font="letterica16" color="ui_3">ui_total_price</text>
@@ -154,7 +154,7 @@
 		</trade_weight_max>
 	</left_delimiter>
 	<!-- actor -->
-	<right_delimiter x="648" y="182" width="273" height="163" stretch="1">
+	<right_delimiter x="648" y="226" width="273" height="163" stretch="1">
 	    <texture>ui_inGame2_center_trade_devider</texture>
 	    <trade_caption x="118" y="74" width="48" height="16">
 	    	<text align="r" font="letterica16" color="ui_3">ui_total_price</text>
@@ -178,8 +178,8 @@
   <dragdrop_trash x="0" y="0" width="375" height="768"
     	cell_width="375" cell_height="768" rows_num="1" cols_num="1" a="0"/>
 
-  <dragdrop_bag x="663" y="113" width="247" height="600"
-    	cell_width="23" cell_height="30" rows_num="20" cols_num="10"
+  <dragdrop_bag x="662" y="119" width="247" height="574"
+    	cell_width="33" cell_height="41" rows_num="14" cols_num="7"
 		unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
 	<dragdrop_belt x="390" y="480" width="240" height="41"
@@ -211,31 +211,31 @@
 		custom_placement="0" vertical_placement="1" a="0"
 		virtual_cells="1" vc_vert_align="c" vc_horiz_align="c" />
 
-	<dragdrop_actor_trade x="664" y="113" width="247" height="120"
-		cell_width="23" cell_height="30" rows_num="4" cols_num="10"
+	<dragdrop_actor_trade x="662" y="114" width="247" height="164"
+		cell_width="33" cell_height="41" rows_num="4" cols_num="7"
 		unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
-	<dragdrop_actor_trade_bag x="664" y="293" width="247" height="420"
-		cell_width="23" cell_height="30" rows_num="14" cols_num="10"
+	<dragdrop_actor_trade_bag x="662" y="340" width="247" height="369"
+		cell_width="33" cell_height="41" rows_num="9" cols_num="7"
 		unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
-	<dragdrop_partner_trade x="118" y="113" width="247" height="120"
-	    cell_width="23" cell_height="30" rows_num="4" cols_num="10"
+	<dragdrop_partner_trade x="117" y="114" width="247" height="164"
+	    cell_width="33" cell_height="41" rows_num="4" cols_num="7"
 	    unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
-	<dragdrop_partner_bag x="118" y="293" width="247" height="420"
-	    cell_width="23" cell_height="30" rows_num="14" cols_num="10"
+	<dragdrop_partner_bag x="117" y="340" width="247" height="369"
+	    cell_width="33" cell_height="41" rows_num="9" cols_num="7"
 	    unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
-	<dragdrop_deadbody_bag x="118" y="113" width="247" height="570"
-	    cell_width="23" cell_height="30" rows_num="19" cols_num="10"
+	<dragdrop_deadbody_bag x="117" y="119" width="247" height="574"
+	    cell_width="33" cell_height="41" rows_num="14" cols_num="7"
 	    unlimited="1" group_similar="1" always_show_scroll="0" condition_progress_bar="1"/>
 
 	<dragdrop_quick_slots x="398" y="407" width="227" height="41"
 	    cell_width="33" cell_height="41" a="0" rows_num="1"	cols_num="4"
 		cell_sp_x="32" cell_sp_y="0" custom_placement="1"/>
 
-	<trade_buy_button x="113" y="251" width="107" height="26" stretch="1" hint="ui_st_buy_hint">
+	<trade_buy_button x="113" y="295" width="107" height="26" stretch="1" hint="ui_st_buy_hint">
 	    <window_name>trade_buy_button</window_name>
 	    <texture>ui_inGame2_inventory_button</texture>
 	    <text font="graffiti22" align="c">ui_st_buy</text>
@@ -247,7 +247,7 @@
 	    </text_color>
 	</trade_buy_button>
 
-	<trade_sell_button x="660" y="251" width="107" height="26" stretch="1" hint="ui_st_sell_hint">
+	<trade_sell_button x="660" y="295" width="107" height="26" stretch="1" hint="ui_st_sell_hint">
 	    <window_name>trade_sell_button</window_name>
 	    <texture>ui_inGame2_inventory_button</texture>
 	    <text font="graffiti22" align="c">ui_st_sell</text>
