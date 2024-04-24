@@ -7,7 +7,7 @@
 		<text>Shooting an enemy in the eye will result in an instant kill, regardless of his armor level.</text>
 	</string>
 	<string id="ls_mp_tip_19">
-		<text>The AN-94 Abakan has a unique two round burst firing mode. In this mode, both bullets in a burst will hit the same spot.</text>
+		<text>The AC-96/2 has a unique two round burst firing mode. In this mode, both bullets in a burst will hit the same spot.</text>
 	</string>
 	<string id="ls_mp_tip_21">
 		<text>Double-barreled shotguns can be used to fire both barrels almost simultaneously.</text>
@@ -31,7 +31,7 @@
 		<text>The artifact or the player carrying it is shown on the minimap. If the artifact is far away, an arrow on the minimap will indicate its direction.</text>
 	</string>
 	<string id="ls_tip_37">
-		<text>The AN-94 Abakan has a unique two round burst firing mode. In this mode, both bullets in a burst will hit the same spot.</text>
+		<text>The AC-96/2 has a unique two round burst firing mode. In this mode, both bullets in a burst will hit the same spot.</text>
 	</string>
 	<string id="ls_tip_39">
 		<text>Double-barreled shotguns can be used to fire both barrels almost simultaneously.</text>

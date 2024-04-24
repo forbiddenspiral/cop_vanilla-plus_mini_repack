@@ -1675,7 +1675,7 @@
 		<text>Let's.</text>
 	</string>
 	<string id="zat_b33_stalker_snag_share_package_dialog_111">
-		<text>Let's see what we got here... My old but lethal Fort-12. A long time ago my uncle modified it with his own hands. Almost like a family heirloom, yeah... so, let me hold on to that.</text>
+		<text>Let's see what we got here... My old but lethal Fora. A long time ago my uncle modified it with his own hands. Almost like a family heirloom, yeah... so, let me hold on to that.</text>
 	</string>
 	<string id="zat_b33_stalker_snag_share_package_dialog_1111">
 		<text>No, give it to me!</text>
@@ -1717,7 +1717,7 @@
 		<text>You can keep that. What else is there?</text>
 	</string>
 	<string id="zat_b33_stalker_snag_share_package_dialog_113">
-		<text>Okay... Wow. I doubt you've ever held this kinda shooter in your hands... An enhanced AKS-74U. I gave this Duty fella a ton of first aid kits to get my hands on this beauty. That was when Freedom pounded a Duty squad so bad that they actually ran out of meds. Three times this baby saved my life since then... This is definitely for me.</text>
+		<text>Okay... Wow. I doubt you've ever held this kinda shooter in your hands... An enhanced AKM-74/2U. I gave this Duty fella a ton of first aid kits to get my hands on this beauty. That was when Freedom pounded a Duty squad so bad that they actually ran out of meds. Three times this baby saved my life since then... This is definitely for me.</text>
 	</string>
 	<string id="zat_b33_stalker_snag_share_package_dialog_1131">
 		<text>Maybe I can have it?</text>
@@ -2254,10 +2254,10 @@
 		<text>Here's Carabineer, an automatic shotgun. Add 8,000 and it's yours.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_231">
-		<text>I reckon this is just what you need. Armsel Protecta, a latest development. The whole batch was supposed to be shipped to Central Africa, but I got a 'sample' as a special favor from friends. An automatic shotgun with a large magazine and an excellent rate of fire. Yours for only 8,000.</text>
+		<text>I reckon this is just what you need. Eliminator, a latest development. The whole batch was supposed to be shipped to Central Africa, but I got a 'sample' as a special favor from friends. An automatic shotgun with a large magazine and an excellent rate of fire. Yours for only 8,000.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_232">
-		<text>Sure. Automatic shotgun Armsel Protecta, with an extended magazine. For 8,000.</text>
+		<text>Sure. Automatic shotgun Eliminator, with an extended magazine. For 8,000.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_311">
 		<text>Sure. Behold Storm, an assault rifle and grenade launcher in one. This prototype is a modified version of a conventional weapon designed for special units operating in the Zone. Technical innovation at its best from our Slavic brothers... Add 16,000 and it's yours.</text>
@@ -2266,16 +2266,16 @@
 		<text>Sure. Here's Storm, an assault rifle and grenade launcher with an extended magazine, for an extra 16,000.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_321">
-		<text>Here it is - H&amp;K G36, a new-generation assault rifle. Accurate, reliable, and convenient with a built-in optical scope. It was previously owned by a UN observer. Their group was sent to the Zone to investigate. However, the situation turned for the worse... 16,000 and the rifle is yours.</text>
+		<text>Here it is - GP37, a new-generation assault rifle. Accurate, reliable, and convenient with a built-in optical scope. It was previously owned by a UN observer. Their group was sent to the Zone to investigate. However, the situation turned for the worse... 16,000 and the rifle is yours.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_322">
-		<text>Here it is - H&amp;K G36, a new-generation assault rifle. The price is 16,000.</text>
+		<text>Here it is - GP37, a new-generation assault rifle. The price is 16,000.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_331">
-		<text>Just a sec. Here's a modular FN F2000 rifle, the brainchild of Belgian gunmakers. Accurate, all-purpose, handy for both righties and lefties, comes with an optical scope and a grenade launcher. I got it from some unlucky UN observers... That'll be 16,000 extra.</text>
+		<text>Just a sec. Here's a modular FT-200M rifle, the brainchild of Belgian gunmakers. Accurate, all-purpose, handy for both righties and lefties, comes with an optical scope and a grenade launcher. I got it from some unlucky UN observers... That'll be 16,000 extra.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_332">
-		<text>Here's a modular FN F2000 rifle. That'll be 16,000 extra.</text>
+		<text>Here's a modular FT-200M rifle. That'll be 16,000 extra.</text>
 	</string>
 	<string id="zat_b51_stalker_nimble_get_order_411">
 		<text>Here's Tide. Based on a silent sniper rifle, it was specifically designed for military units to fight zombies. Tide yields rate of fire in favor of stopping power, allowing the sniper to pick off zombies one by one without disclosing his location. However, it then became clear that stalkers alone will be enough to stop zombies at the Barrier, so the rifle never reached mass production. This baby's yours for an extra 16,000.</text>
