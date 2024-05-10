@@ -16,7 +16,7 @@
     </text_color>
   </button>
 
-  <answers_list	  x="296" y="63" width="437" height="423" always_show_scroll="1"/>
+  <answers_list	  x="296" y="63" width="437" height="423" always_show_scroll="0"/>
   <questions_list x="296" y="542" width="437" height="166" always_show_scroll="0"/>
 
   <question_item x="0" y="0" width="439" height="20" min_height="13">
