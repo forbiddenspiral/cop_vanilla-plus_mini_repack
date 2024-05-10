@@ -199,19 +199,19 @@
 	    </progress_bar_stamina>
 
 		<static_cur_ammo x="887" y="690" width="54" height="37">
-			<text complex_mode="0" font="graffiti32" color="ui_alpha" align="c" vert_align="c">ammo</text>
+			<text complex_mode="0" font="graffiti32" color="ui_7" align="c" vert_align="c">ammo</text>
 		</static_cur_ammo>
 
-	    <static_fmj_ammo x="-30" y="-30" width="26" height="15"><!-- x="887" y="724" -->
-	        <text align="c" complex_mode="0" font="graffiti19" color="ui_alpha">fmj</text>
+	    <static_fmj_ammo x="887" y="724" width="26" height="15">
+	        <text align="c" complex_mode="0" font="graffiti19" color="ui_7">fmj</text>
 	    </static_fmj_ammo>
 
 	    <static_ap_ammo x="915" y="724" width="26" height="15">
-	        <text align="c" complex_mode="0" font="graffiti19" color="ui_alpha">ap</text>
+	        <text align="c" complex_mode="0" font="graffiti19" r="238" g="155" b="23" a="150">ap</text>
 	    </static_ap_ammo>
 
-	    <static_grenade x="-30" y="-30" width="14" height="19"><!-- x="864" y="690" -->
-	        <text align="c" complex_mode="0" font="letterica16" color="ui_alpha" vert_align="c">gr</text>
+	    <static_grenade x="864" y="690" width="14" height="19">
+	        <text align="c" complex_mode="0" font="letterica16" color="ui_7" vert_align="c">gr</text>
 	    </static_grenade>
 
 
