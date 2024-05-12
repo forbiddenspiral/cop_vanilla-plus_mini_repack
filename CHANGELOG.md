@@ -1,5 +1,30 @@
 # Changelog
 
+v0.6 - 05/12/2024
+
+- Updated inventory icon for MP5: The inventory icon for the MP5 has been replaced with one that better matches the world model used by the OSRM mod.
+- Reverted unintentional texture change: Restored the vanilla screen helmet texture, which was unintentionally replaced during improvements to inventory icons.
+- Restored vanilla behavior: Several functionalities have been restored to align with the original game experience:
+  - Enemies are now displayed on the minimap.
+  - The grenade indicator has been restored to the HUD for better visual feedback.
+  - NPC detection sounds are audible again on the PDA.
+  - The HUD now displays the NPC counter, ammo counter, and grenade shell ammo counter.
+  - The minimap shows the objective marker and red hit indicator.
+  - The HUD displays the NPC counter indicator.
+  - Binocular functionality has been restored, allowing you to tag NPCs and receive sound notifications upon detecting them.
+  - Re-enabled sound notifications for NPC detection through modified scopes.
+- Used correct world model for "svoboda_heavy_outfit": The world model for the "svoboda_heavy_outfit" has been corrected. It was previously using the incorrect model "stalker_freedom_2.ogf" instead of the intended "stalker_freedom_3.ogf".
+- Optional Feature Removal:
+  - "Red hit marks invisible on HUD" option removed: This optional feature has been removed to prioritize a more vanilla experience. Players will now see red hit markers on the HUD as intended.
+- Visual Tweaks:
+  - Hidden scrollbar in talk_16.xml: A minor XML change has been implemented to hide the scrollbar in the talk menu by default.
+  - Aligned HUD element positions: The positions of the following elements on the HUD have been adjusted to improve visual consistency and organization:
+    - Grenade shell ammo counter
+    - Fire mode indicator
+    - Magazine/clip rounds counter
+    - FMJ ammo counter
+    - AP ammo counter
+
 v0.5 - 04/25/2024
 
 - Gameplay Adjustments:
