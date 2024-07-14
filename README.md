@@ -19,14 +19,14 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 
 - My sincere gratitude to the following modders for creating these fantastic mods and tools:
   - Anonymous: "Slower sprint speed" <https://www.gamefront.com/games/s-t-a-l-k-e-r-call-of-pripyat/file/slower-sprint-speed-download-fixed>
-  - ColR_iT/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forgottenspiral: "Medicine Mod" (one of my favorited Lua scripts)
+  - ColR_iT/Translated by MisterBadGuy/Modified by PartyBoat/Modified again and adapted to multilanguage by forbiddenspiral: "Medicine Mod" (one of my favorited Lua scripts)
     - <https://www.amk-team.ru/forum/topic/12674-medicina/>
     - <https://www.moddb.com/mods/stalker-animationssounds-for-consumables/downloads/medicine-rc-ver1-1>
   - CrommCruac: "Absolute Scopes Texture Pack v1.1" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/absolute-scopes-texture-pack-v1-1>
   - CrommCruac: "NanoCell Inventory" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/nanocell-inventory>
   - Decane1: "Quick named savegame" - from SRP (one of my favorited Lua snippets).
   - Decane1: "SRP v1.1.4" <https://www.moddb.com/mods/srp/downloads/srp-v114>
-  - forgottenspiral: "Mini-addon InGameSubs for PRP V1.2" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/mini-addon-ingamesubs-for-prp-v12>
+  - forbiddenspiral: "Mini-addon InGameSubs v0.3 for PRP v1.2 and Vanilla COP" <https://www.moddb.com/games/stalker-call-of-pripyat/addons/mini-addon-ingamesubs-for-prp-and-vanilla>
   - MacroN: "Field of View Switcher 1.7" <https://www.moddb.com/downloads/field-of-view-switcher-17>
   - MrSeyker: "PRP v1.2" <https://www.moddb.com/mods/pripyat-reclamation-patch>
   - NatVac: "silence.ogg for contact_1.ogg and contact_8.ogg and other things" SAVandT_1.1.
