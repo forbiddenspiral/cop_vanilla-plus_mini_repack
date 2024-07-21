@@ -77,7 +77,7 @@
 		<text>Composer</text>
 	</string>
 	<string id="st_davidian">
-		<text>Dmitry ï¿½Abeï¿½ Davidyan</text>
+		<text>Dmitry “Abe” Davidyan</text>
 	</string>
 	<string id="st_davies">
 		<text>Aaron Davies</text>
@@ -116,7 +116,7 @@
 		<text>Sergey Eremenko</text>
 	</string>
 	<string id="st_falchenko">
-		<text>Yuri "Darkï¿½ Falchenko</text>
+		<text>Yuri "Dark" Falchenko</text>
 	</string>
 	<string id="st_gabryel">
 		<text>Jakub Gabryel</text>
@@ -191,7 +191,7 @@
 		<text>Aleksander Keska</text>
 	</string>
 	<string id="st_kirienko">
-		<text>Andrey ï¿½Darinï¿½ Kirienko</text>
+		<text>Andrey “Darin” Kirienko</text>
 	</string>
 	<string id="st_kobylanski">
 		<text>Lukasz Kobylanski</text>
@@ -512,10 +512,10 @@
 		<text>Konstantin Morozkov</text>
 	</string>
 	<string id="st_thanks11">
-		<text>Yaroslav ï¿½Uncle Yarï¿½ Alexandrov</text>
+		<text>Yaroslav “Uncle Yar” Alexandrov</text>
 	</string>
 	<string id="st_thanks12">
-		<text>Dmitry ï¿½Comandorï¿½ Ivanov</text>
+		<text>Dmitry “Comandor” Ivanov</text>
 	</string>
 	<string id="st_thanks13">
 		<text>Oleg Chernov</text>
@@ -527,13 +527,13 @@
 		<text>M. Bystrykhin</text>
 	</string>
 	<string id="st_thanks16">
-		<text>Eugene ï¿½Mulderï¿½ Khaletskiy</text>
+		<text>Eugene “Mulder” Khaletskiy</text>
 	</string>
 	<string id="st_thanks17">
-		<text>Pavel ï¿½Goonï¿½ Bolotov</text>
+		<text>Pavel “Goon” Bolotov</text>
 	</string>
 	<string id="st_thanks18">
-		<text>Alexander ï¿½Leksï¿½ Abramov</text>
+		<text>Alexander “Leks” Abramov</text>
 	</string>
 	<string id="st_thanks19">
 		<text>Alexander Novikov</text>
@@ -542,13 +542,13 @@
 		<text>Alexander Poshtaruk, Andrey Oleshk</text>
 	</string>
 	<string id="st_thanks20">
-		<text>Eugene ï¿½KRANZï¿½ Goncharenko</text>
+		<text>Eugene “KRANZ” Goncharenko</text>
 	</string>
 	<string id="st_thanks21">
 		<text>Sergey Dvuzhilny</text>
 	</string>
 	<string id="st_thanks22">
-		<text>Aleksey "Don Rebaï¿½ Badalov</text>
+		<text>Aleksey "Don Reba" Badalov</text>
 	</string>
 	<string id="st_thanks23">
 		<text>Sergey Dvuzhilny, Tolusha</text>
@@ -566,22 +566,22 @@
 		<text>Alexander Oleinik</text>
 	</string>
 	<string id="st_thanks4">
-		<text>Konstantin ï¿½Inquisitorï¿½ Kriuchkov</text>
+		<text>Konstantin “Inquisitor” Kriuchkov</text>
 	</string>
 	<string id="st_thanks5">
 		<text>Alexander Shakhovsky, Igor Dolzhenko</text>
 	</string>
 	<string id="st_thanks6">
-		<text>Sergey ï¿½Turï¿½ Leshenko</text>
+		<text>Sergey “Tur” Leshenko</text>
 	</string>
 	<string id="st_thanks7">
-		<text>Dmitry ï¿½Hillï¿½ Gorban</text>
+		<text>Dmitry “Hill” Gorban</text>
 	</string>
 	<string id="st_thanks8">
 		<text>Mikhail Kliuev</text>
 	</string>
 	<string id="st_thanks9">
-		<text>Sergey ï¿½Termiteï¿½ Volchanov</text>
+		<text>Sergey “Termite” Volchanov</text>
 	</string>
 	<string id="st_tihomirov">
 		<text>Sergey Tikhomirov</text>
@@ -599,7 +599,7 @@
 		<text>Yuri Uralsky</text>
 	</string>
 	<string id="st_usupov">
-		<text>Denis ï¿½Tetri$Zsï¿½ Yusupov</text>
+		<text>Denis “Tetri$Zs” Yusupov</text>
 	</string>
 	<string id="st_vander">
 		<text>RandyJ VanderHeyden</text>
@@ -665,13 +665,13 @@
 		<text>Bartosz Zukowski</text>
 	</string>
 	<string id="st_yuhno">
-		<text>Victoria ï¿½Morrantï¿½ Yukhno</text>
+		<text>Victoria “Morrant” Yukhno</text>
 	</string>
 	<string id="st_kalintsev">
-		<text>Sergey ï¿½ionï¿½ Kalintsev</text>
+		<text>Sergey “ion” Kalintsev</text>
 	</string>
 	<string id="st_kulikov">
-		<text>Roman ï¿½RVCoolï¿½ Kulikov</text>
+		<text>Roman “RVCool” Kulikov</text>
 	</string>
 	<string id="st_smirnov">
 		<text>Maxim Smirnov</text>
