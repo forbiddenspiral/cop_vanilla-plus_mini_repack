@@ -141,6 +141,7 @@ local itemParam = {
 -- Аптечки
 -- -------------------------------------------------- --
 	["medkit"]			= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.6) or 0.6,
 			timeRestore = 8,
@@ -149,7 +150,6 @@ local itemParam = {
 			howMuch		= 0.03,
 			timeRestore	= 8,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.1,
 			timeRestore = 8,
@@ -164,6 +164,7 @@ local itemParam = {
 		stringId	= "st_medkit",
 	},
 	["medkit_army"]		= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.8) or 0.8,
 			timeRestore = 8,
@@ -176,7 +177,6 @@ local itemParam = {
 			howMuch		= hard and ((0 - db.actor.radiation) * 0.2) or -0.2,
 			timeRestore = 8,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.15,
 			timeRestore = 8,
@@ -191,6 +191,7 @@ local itemParam = {
 		stringId	= "st_medkit_army",
 	},
 	["medkit_scientic"]	= {
+		--[[
 		health 			= {
 			howMuch		= 1.0,
 			timeRestore = 8,
@@ -203,7 +204,6 @@ local itemParam = {
 			howMuch		= hard and ((0 - db.actor.radiation) * 0.5) or -0.5,
 			timeRestore = 8,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.2,
 			timeRestore = 8,
@@ -221,11 +221,11 @@ local itemParam = {
 -- Бинт
 -- -------------------------------------------------- --
 	["bandage"]			= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.2) or 0.2,
 			timeRestore = 6,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.25,
 			timeRestore = 6,
@@ -243,11 +243,11 @@ local itemParam = {
 -- Антирад
 -- -------------------------------------------------- --
 	["antirad"]			= {
+		--[[
 		radiation		= {
 			howMuch		= -1.0,
 			timeRestore = 10,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.3,
 			timeRestore = 10,
@@ -261,10 +261,6 @@ local itemParam = {
 		displayName		= "Anti-rad",
 		stringId	= "st_antirad",
 	},
--- -------------------------------------------------- --
--- TODO:
--- -------------------------------------------------- --
--- Tweak from Antidote to Vinca
 -- -------------------------------------------------- --
 -- Антидот
 -- -------------------------------------------------- --
@@ -329,6 +325,7 @@ local itemParam = {
 -- Водка
 -- -------------------------------------------------- --
 	["vodka"]			= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.05) or 0.05,
 			timeRestore = 10,
@@ -341,7 +338,6 @@ local itemParam = {
 			howMuch		= hard and ((0 - db.actor.radiation) * 0.1) or -0.167,
 			timeRestore = 6,
 		},
-		--[[
 		power			= {
 			howMuch		= -0.2,
 			timeRestore = 9,
@@ -359,6 +355,7 @@ local itemParam = {
 -- Энергетик
 -- -------------------------------------------------- --
 	["energy_drink"]	= {
+		--[[	
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.05) or 0.05,
 			timeRestore = 10,
@@ -367,6 +364,7 @@ local itemParam = {
 			howMuch		= 5.0,
 			timeRestore = 30,
 		},
+		]]
 		timeHideWpn		= 3000,
 		notRepeatUse	= true,
 		timeReusing		= 3500,
@@ -379,11 +377,11 @@ local itemParam = {
 -- Еда
 -- -------------------------------------------------- --
 	["conserva"]		= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.3) or 0.3,
 			timeRestore = 20,
 		},
-		--[[
 		power			= {
 			howMuch		= 2.0,
 			timeRestore = 20,
@@ -398,11 +396,11 @@ local itemParam = {
 		stringId	= "st_conserva",
 	},
 	["kolbasa"]			= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.2) or 0.2,
 			timeRestore = 20,
 		},
-		--[[
 		power			= {
 			howMuch		= 1.5,
 			timeRestore = 20,
@@ -417,11 +415,11 @@ local itemParam = {
 		stringId	= "st_kolbasa",
 	},
 	["bread"]			= {
+		--[[
 		health 			= {
 			howMuch		= hard and ((1.0 - actor.health) * 0.1) or 0.1,
 			timeRestore = 20,
 		},
-		--[[
 		power			= {
 			howMuch		= 1.0,
 			timeRestore = 20,

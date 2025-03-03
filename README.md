@@ -10,7 +10,7 @@ Through this project, I've gained a newfound appreciation for certain vanilla fe
 
 **General Notes:**
 
-- Core gameplay mechanics like ballistics, damage systems, and AI remain faithful to the vanilla experience. Player attributes have been adjusted to align more closely with the values found in CS. Item consumable properties are modified by the Medicine Mod.
+- Core gameplay mechanics like ballistics, damage systems, and AI remain faithful to the vanilla experience. Player attributes have been adjusted to align more closely with the values found in CS. Item consumable properties aren't modified by the Medicine Mod, which only adds long usage and sound effects for all consumable items.
 - Due to time constraints and limited modding experience. An optional "Alternative Ballistics Core" addon is planned to potentially port these features directly from SRP in the future.
 - Original graphics and visuals are preserved.
 - Limited compatibility: supports 16:9 aspect ratio monitors, resolutions up to 1920x1080, and English language (subtitles included).

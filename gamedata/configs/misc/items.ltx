@@ -79,11 +79,11 @@ position_offset			 = 0.0,0.0,0.0
 angle_offset			 = 1.570790,1.570790,3.92699
 
 ;tweaked in favor of Medicine Mod
-boost_time				= 0.0
-boost_health_restore	= 0.0
-eat_satiety				= 0.2
+boost_time				= 5.0
+boost_health_restore	= 0.002
+eat_satiety				= 0.6
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [kolbasa]:booster
 $spawn 				= "food and drugs\kolbasa"
@@ -111,11 +111,11 @@ position_offset			 = 0.0,0.0,0.0
 angle_offset			 = 1.570790,1.570790,3.92699
 
 ;tweaked in favor of Medicine Mod
-boost_time				= 0.0
-boost_health_restore	= 0.0
-eat_satiety				= 0.3
+boost_time				= 5.0
+boost_health_restore	= 0.002
+eat_satiety				= 1
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [conserva]:booster
 $spawn 				= "food and drugs\conserva"
@@ -133,9 +133,9 @@ inv_grid_y			= 13
 cost				= 40
 
 ;tweaked in favor of Medicine Mod
-boost_time				= 0.0
-boost_health_restore	= 0.0
-eat_satiety				= 0.7
+boost_time				= 5.0
+boost_health_restore	= 0.002
+eat_satiety				= 1
 
 
 attach_angle_offset		= 0.440521, 1.378287, -0.644026
@@ -148,7 +148,7 @@ bone_name				= bip01_r_hand
 position_offset			 = 0.0,0.0,0.0
 angle_offset			 = 1.570790,1.570790,3.92699
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [vodka]:booster
 $spawn 				= "food and drugs\vodka"
@@ -179,12 +179,12 @@ break_particles		= destroy_fx\destroy_bottle
 break_sound			= material\bottle\collide\bottle_break_1
 
 ;tweaked in favor of Medicine Mod
-boost_time				= 0.0
-boost_radiation_restore	= 0.0
+boost_time				= 5.0
+boost_radiation_restore	= 0.005
 eat_alcohol				= 0.1
 eat_satiety				= -0.2
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [vodka_script]:vodka ; не использовать
 $spawn 				= "food and drugs\vodka_script"
@@ -281,14 +281,14 @@ attach_bone_name		= bip01_r_hand
 auto_attach				= false
 
 ;tweaked in favor of Medicine Mod
-boost_time				= 0.0
+boost_time				= 60.0
 boost_radiation_restore	= 0.0
-boost_power_restore		= 0.0
+boost_power_restore		= 0.005 ;0.001
 
 eat_alcohol				= 0.0
 eat_satiety 			= 0.0
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [bandage]:booster
 $spawn 				= "food and drugs\bandage"
@@ -307,10 +307,10 @@ inv_grid_y			= 18
 
 ;tweaked in favor of Medicine Mod
 eat_satiety = 0.0;-0.1
-boost_time				= 4
+boost_time				= 5.0
 boost_bleeding_restore	= 0.02
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 ;antirad new
 [antirad]:booster
@@ -332,10 +332,10 @@ cost				= 250
 
 ;tweaked in favor of Medicine Mod
 eat_satiety = 0.0;-0.1
-boost_time			= 0.0
-boost_radiation_restore	= 0.0
+boost_time			= 10.0
+boost_radiation_restore	= 0.01
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 ;medikits new
 [medkit_script]:booster ;Do not use! Used in xr_wounded
@@ -378,12 +378,12 @@ cost				= 250
 
 ;tweaked in favor of Medicine Mod
 eat_satiety			= 0.0;-0.1
-boost_time				= 4
-boost_health_restore	= 0.0
+boost_time				= 10.0
+boost_health_restore	= 0.01
 boost_radiation_restore	= 0.0
-boost_bleeding_restore	= 0.02
+boost_bleeding_restore	= 0.005
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [medkit_army]:booster
 $spawn 				= "food and drugs\medkit_army"
@@ -401,12 +401,12 @@ cost				= 650
 
 ;tweaked in favor of Medicine Mod
 eat_satiety			= 0.0;-0.1
-boost_time				= 4
-boost_health_restore	= 0.0
+boost_time				= 5.0
+boost_health_restore	= 0.02
 boost_radiation_restore	= 0.0
 boost_bleeding_restore	= 0.02
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [medkit_scientic]:booster
 $spawn 				= "food and drugs\medkit_scientic"
@@ -424,12 +424,12 @@ cost				= 800
 
 ;tweaked in favor of Medicine Mod
 eat_satiety			= 0.0;-0.1
-boost_time				= 4
-boost_health_restore	= 0.0
-boost_radiation_restore	= 0.0
-boost_bleeding_restore	= 0.02
+boost_time				= 10.0
+boost_health_restore	= 0.01
+boost_radiation_restore	= 0.01
+boost_bleeding_restore	= 0.005
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 ;boosters
 [drug_booster]:booster
@@ -450,7 +450,7 @@ eat_satiety = 0.0;-0.1
 boost_time			= 300.0
 boost_max_weight	= 20.0
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [drug_coagulant]:booster
 $spawn 				= "food and drugs\drug_coagulant"
@@ -471,7 +471,7 @@ boost_time				= 20.0
 ;boost_wound_immunity	= 1
 boost_bleeding_restore	= 0.03
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [drug_psy_blockade]:booster
 $spawn 				= "food and drugs\drug_psy_blockade"
@@ -492,7 +492,7 @@ boost_time				= 60.0
 ;boost_telepat_immunity	= 0.05
 boost_telepat_protection 	= 0.05
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [drug_antidot]:booster
 $spawn 				= "food and drugs\drug_antidot"
@@ -513,7 +513,7 @@ boost_time				= 60.0
 ;boost_chemburn_immunity	= 0.1
 boost_chemburn_protection 	= 0.1
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [drug_radioprotector]:booster
 $spawn 				= "food and drugs\drug_radioprotector"
@@ -534,7 +534,7 @@ boost_time					= 60.0
 ;boost_radiation_immunity	= 0.015
 boost_radiation_protection	= 0.015
 
-use_sound			= ambient\silence
+;use_sound			= ambient\silence
 
 [drug_anabiotic]:booster
 $spawn 				= "food and drugs\drug_anabiotic"
