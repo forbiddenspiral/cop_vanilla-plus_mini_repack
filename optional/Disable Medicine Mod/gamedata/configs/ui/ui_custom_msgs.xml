@@ -82,15 +82,15 @@
         </autosave>
 
         <item_used  x="100" y="700" width="800" height="30" ttl="3">
-                <text font="graffiti22"  r="240" g="217" b="182" a="0" align="c"/><!-- a="255" -->
+                <text font="graffiti22"  r="240" g="217" b="182" a="255" align="c"/><!-- a="0" -->
         </item_used>
         
         <item_used_custom x="100" y="700" width="800" height="30" ttl="3">
-          <text font="graffiti22" r="240" g="217" b="182" a="255" align="c"/><!-- a="0" -->
+          <text font="graffiti22" r="240" g="217" b="182" a="0" align="c"/><!-- a="255" -->
         </item_used_custom>
 
         <item_use_error x="100" y="700" width="800" height="30" ttl="3">
-          <text font="graffiti22" r="240" g="217" b="182" a="255" align="c"/><!-- a="0" -->
+          <text font="graffiti22" r="240" g="217" b="182" a="0" align="c"/><!-- a="255" -->
         </item_use_error>
 
         <gun_jammed x="200" y="70" width="600" height="50" ttl="3">
